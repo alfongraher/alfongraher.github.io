@@ -1,0 +1,52 @@
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./img/fondo.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title{
+      font-size: 4vw;
+  }
+
+  .subtitle{
+    font-size: 2vw;
+  }
+
+
+  .badge.badge-pill.badge-light.pill-small {
+    padding:2px;
+    font-size:.5rem;
+  }
+  
+  .badge.badge-pill.badge-light.pill-medium {
+    padding:7px;
+    font-size:.75rem;
+  }
+  
+  .badge.badge-pill.badge-light.pill-large {
+    padding:7px;
+    font-size:1.5rem;
+  }
+
+
+.portfolio{
+    transition: transform .6s;
+}
+
+.portfolio:hover{
+    transform: scale(1.1);
+}
